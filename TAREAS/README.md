@@ -1,2 +1,2 @@
-# Base de datos
-Repositorio dedicado a la asignatura BBDD
+# Entornos de desarrollo
+Carpeta dedicada a las tareas de ETS
