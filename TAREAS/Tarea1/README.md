@@ -14,6 +14,7 @@ Los **requisitos no funcionales** son la características que debe tener el prog
 - Reducir el tiempo de respuesta de la aplicación. Intentaremos obtener unos tiempos de respuesta que se adapten a las necesidades del cliente y sean los más rápidos posibles. 
 - Impedir el uso de dos peticiones simultáneas, aunque hayan varios equipos funcionando a la misma vez.
 
-Después de esto, planificaremos una serie de reuniones periódicas con el cliente con el fin de precisar cada uno de los requerimientos a desarrollar y comprobar las características hardware del equipamiento informático de nuestro cliente.  
+Después de esto, planificaremos una serie de reuniones con el cliente con el fin de precisar cada uno de los requerimientos a desarrollar y comprobar las características hardware del equipamiento informático de nuestro cliente.  
 
 ## Diseño
+Para este proyecto, utilizaremos un modelo de ciclo de vida ágil, ya que son aquellas que permiten adaptar la forma de trabajo a las condiciones del proyecto, consiguiendo flexibilidad e inmediatez en la respuesta para amoldar el proyecto y su desarrollo a las circunstancias específicas del entorno. En concreto, utilizaremos el modelo Scrum.
