@@ -26,16 +26,16 @@ La metodología Scrum, es un modelo de desarrollo incremental utilizado para lle
 </br>
 
 El diseño de este proyecto lo dividiremos en 4 etapas diferenciadas:
-- **1.Planificación: Product Backlog**
+- **1.Planificación: Product Backlog.**
 En esta primera fase, en continua comunicación con el cliente, se establecerán las tareas prioritarias y objetivos a lograr. El Product Backlog tiene permitido cambiar y crecer tantas veces como sea necesario en función del aprendizaje adquirido en el desarrollo del producto.  
 
-- **2.Sprint Backlog**
+- **2.Sprint Backlog.**
 En la segunda fase, el equipo decide a cuanto trabajo se compromete en vez de serles asignado. Esto hace que el compromiso sea más fiable porque el equipo lo está haciendo basado en su propio análisis y planificación.
 
-- **3.Ejecución: Sprint**
+- **3.Ejecución: Sprint.**
 En esta tercera etapa, que como máximo tendrá una duración de un mes, el equipo de trabajo se focalizará en el desarrollo de tareas para poder conseguir el producto potencialmente entregable. Durante este proceso, habrá reuniones diarias con el equipo donde se irá analizando la marcha de las tareas, posibles inconvenientes que vayamos encontrando y posibles soluciones.
 
-- **4.Revisión: Sprint review**
+- **4.Revisión: Sprint review.**
 Al final del sprint, el equipo se reúne en una sesión informal para ver una demostración o inspeccionar el incremento. El equipo de desarrollo muestra los elementos del backlog que ahora están finalizados a las partes interesadas y a los compañeros de equipo para recibir comentarios. El propietario del producto puede decidir si lanzar o no el producto. En caso de que el cliente no quede satisfecho, se volvería a la fase del Sprint Backlog, para corregir, añadir o suprimir cuantos cambios se quieran realizar.
 
  En cuanto al sistema gestor de Bases de Datos hemos decido usar MySql ya que es un sistema relacional y además se puede utilizar como software libre, tal y como demanda el cliente. Las entidades y relaciones de la base de datos serán las siguientes:
