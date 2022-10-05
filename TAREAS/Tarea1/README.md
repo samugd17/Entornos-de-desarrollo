@@ -51,7 +51,15 @@ Al final del sprint, el equipo se reúne en una sesión informal para ver una de
  </br>
  
  ## Codificación
-En este apartado, codificaremos toda la información que hemos visto anteriormente y la llevaremos a código fuente. El Lenguaje de programación que vamos a utilizar es Python, ya que se adapta a las necesidades del cliente al ser un software libre y también a nuestras necesidades y conocimientos, al ser un lenguaje de programación más intuitivo y sencillo, orientado a objetos, mediante el cual desarrollaremos un código reutilizable, más fácil de mantener y modular.
+En este apartado, codificaremos toda la información que hemos visto anteriormente y la llevaremos a código fuente. El Lenguaje de programación que vamos a utilizar es **Python**, ya que se adapta a las necesidades del cliente al ser un software libre y también a nuestras necesidades y conocimientos, al ser un lenguaje de programación más intuitivo y sencillo, orientado a objetos, mediante el cual desarrollaremos un código reutilizable, más fácil de mantener y modular.
+
+Con el entorno de desarrollo Eclipse, al ser un entorno completo, cubriremos las tres partes de la codificación:
+
+- **1.Código Fuente:** Será tarea de los programadores desarrollar este código en el entorno de desarrollo Eclipse utilizando el editor de código. 
+
+- **2.Código Objeto:** Utilizando el plugin "Pydev", el cual, entre las muchas funciones que trae incorporadas, destaca un compilador para python, obtendremos el código binario resultante de compilar el código fuente.
+
+- **3.Código ejecutable:** Este código es el resultado de enlazar los archivos objeto, consta de un único archivo que puede ser ejecutado por el sistema operativo directamente. Este paso también lo realizaremos con la aplicación Eclipse.
  
 
  
