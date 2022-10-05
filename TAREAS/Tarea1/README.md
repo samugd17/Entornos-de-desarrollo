@@ -30,7 +30,7 @@ El diseño de este proyecto lo dividiremos en 4 etapas diferenciadas:
 En esta primera fase, en continua comunicación con el cliente, se establecerán las tareas prioritarias y objetivos a lograr. El Product Backlog tiene permitido cambiar y crecer tantas veces como sea necesario en función del aprendizaje adquirido en el desarrollo del producto.  
 
 - **2.Sprint Backlog**
-En la segunda fase, se repartirán las diferentes tareas entre los miembros del equipo de trabajo, para poder sacar adelante el producto. 
+En la segunda fase, el equipo decide a cuanto trabajo se compromete en vez de serles asignado. Esto hace que el compromiso sea más fiable porque el equipo lo está haciendo basado en su propio análisis y planificación.
 
 - **3.Ejecución: Sprint**
 En esta tercera etapa, que como máximo tendrá una duración de un mes, el equipo de trabajo se focalizará en el desarrollo de tareas para poder conseguir el producto potencialmente entregable. Durante este proceso, habrá reuniones diarias con el equipo donde se irá analizando la marcha de las tareas, posibles inconvenientes que vayamos encontrando y posibles soluciones.
