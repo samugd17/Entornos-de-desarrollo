@@ -59,17 +59,7 @@ En esta tercera etapa, que como máximo tendrá una duración de un mes, el equi
 - **4.Revisión: Sprint review.**
 Al final del sprint, el equipo se reúne en una sesión informal para ver una demostración o inspeccionar el incremento. El equipo de desarrollo muestra los elementos del backlog que ahora están finalizados a las partes interesadas y a los compañeros de equipo para recibir comentarios. El propietario del producto puede decidir si lanzar o no el producto. En caso de que el cliente no quede satisfecho, se volvería a la fase del Sprint Backlog, para corregir, añadir o suprimir cuantos cambios se quieran realizar.
 
- En cuanto al sistema gestor de Bases de Datos hemos decido usar MySql ya que es un sistema relacional y además se puede utilizar como software libre, tal y como demanda el cliente. Las entidades y relaciones de la base de datos serán las siguientes:
- 
- </br>
-  
- </br>
-
- </br>
-
- </br>
-
- </br>
+ En cuanto al sistema gestor de Bases de Datos hemos decido usar MySql ya que es un sistema relacional y además se puede utilizar como software libre, tal y como demanda el cliente.
  
  ## Codificación
 En este apartado, codificaremos toda la información que hemos visto anteriormente y la llevaremos a código fuente. El Lenguaje de programación que vamos a utilizar es **Python**, ya que se adapta a las necesidades del cliente al ser un software libre y también a nuestras necesidades y conocimientos, al ser un lenguaje de programación más intuitivo y sencillo, orientado a objetos, mediante el cual desarrollaremos un código reutilizable, más fácil de mantener y modular.
@@ -81,6 +71,4 @@ Con el entorno de desarrollo Eclipse, al ser un entorno completo, cubriremos las
 - **2.Código Objeto:** Utilizando el plugin "Pydev", el cual, entre las muchas funciones que trae incorporadas, destaca un compilador para python, obtendremos el código binario resultante de compilar el código fuente.
 
 - **3.Código ejecutable:** Este código es el resultado de enlazar los archivos objeto, consta de un único archivo que puede ser ejecutado por el sistema operativo directamente. Este paso también lo realizaremos con la aplicación Eclipse.
- 
-
  
