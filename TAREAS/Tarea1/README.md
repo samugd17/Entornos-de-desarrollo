@@ -1,4 +1,25 @@
 # Tarea 1: Tienda Ventas
+La empresa Puerto Systems ha recibido un nuevo encargo de software.
+
+Se trata de diseñar una aplicación para una tienda especializada en vender productos estéticos.
+
+La tienda desea trabajar con software libre. Además, desea explícitamente que la aplicación sea capaz de cumplir las siguientes tareas:
+
+- Proporcionar facturas de las ventas.
+- Llevar la cuenta de lo que vende cada trabajador.
+- Controlar el stock de productos en almacén.
+- Operar con lector de código de barras y tarjetas de crédito.
+- Controlar los precios de los productos y ofrecer la posibilidad de operar con ellos.
+- El tiempo de respuesta de la aplicación ha de ser lo menor posible.
+- No se podrán procesar dos peticiones a la vez, aunque haya varios equipos funcionando
+simultáneamente.
+
+La empresa también quiere almacenar información de sus trabajadores: DNI, nombre,
+apellidos, número de la Seguridad Social, fecha de nacimiento, teléfono y localidad.
+Asimismo, de los productos interesa almacenar: código, marca, nombre comercial, precio, cantidad.  
+
+- - -
+
 ## Análisis de requerimientos del sistema
 Comenzaremos nuestro análisis de requisitos del sistema detallando los requisitos funcionales y no funcionales del sistema.   
 Los **requisitos funcionales** podemos describirlos como las funciones que tendrá que realizar nuestra aplicación. En este caso son las siguientes:
