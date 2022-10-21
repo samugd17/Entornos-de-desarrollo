@@ -16,8 +16,3 @@
 ### Modificación de ficheros
 
 ### Historial
-
-
-
-
-Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida. Mostrar la configuración final.
