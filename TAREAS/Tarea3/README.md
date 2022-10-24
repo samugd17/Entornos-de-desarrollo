@@ -145,5 +145,9 @@ Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
 
 <br>
 
+<div align="right">
+
 Samuel Eloy González Díaz.1ºDAW.
+ 
+ </div>
 
