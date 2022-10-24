@@ -20,12 +20,41 @@ Como paso previo a la actividad, clonaremos nuestro repositorio *"libro"* y acce
 
 ## Ejercicio 1
 
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio1.png">
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio1.Parte1.png">
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio1.Parte2.png">
 
 ## Ejercicio 2
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio2.png">
+
 ## Ejercicio 3
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio3.png">
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio3.1.png">
+
 ## Ejercicio 4
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio4.png">
+
 ## Ejercicio 5
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio5.png">
+
 ## Ejercicio 6
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio6.png">
+
 ## Ejercicio 7
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio7.png">
+
 ## Ejercicio 8
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio8.png">
+
 ## Ejercicio 9
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea3/IMG/Ejercicio9.png">
+
