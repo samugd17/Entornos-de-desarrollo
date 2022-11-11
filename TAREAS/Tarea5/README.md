@@ -13,12 +13,15 @@ Lo primero debemos de actualizar el sistema con:
 ```
   sudo apt-get update
 ```
-
 e instalamos Java con este comando:
 
 ```
   sudo apt-get install default-jdk
 ```
+
+<img src="">
+
+
 
 comprobamos que tenemos instalado Java en nuestro sistema solo debemos de ejecutar:
 ```
