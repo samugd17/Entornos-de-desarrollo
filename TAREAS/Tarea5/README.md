@@ -68,6 +68,8 @@ Al igual que antes, comprobamos la versión que tenemos activa con:
  ls /usr/lib/jvm
 ```
 
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/3.png">
+
 ### Actualización de las variables de entorno
 
  Edita y modifica el fichero profile, con los comandos:
@@ -75,24 +77,18 @@ Al igual que antes, comprobamos la versión que tenemos activa con:
 ```console
 sudo update-alternatives --config java
 ```
- y selecciona la version _8_.
 
- Otra opción es : añadir el siguiente código:
+ y selecciona la version _11_.
 
-```console
-# Java version
-JAVA_HOME=/usr/lib/jvm/(SELECCIONA UN PATH DE LA VERSION QUE DESEAS QUE SE EJECUTE)
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
-export JAVA_HOME
-export JRE_HOME
-export PATH
-```
 
- en
+en
 
 ```console
 /etc/profile.d/java.sh
 ```
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/6.png">
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/5.png">
+
 Haga que el script sea ejecutable con chmod:
 
 ```console
@@ -105,9 +101,4 @@ Finalmente, cargue las variables de entorno usando el comando de source
 source /etc/profile.d/java.sh
 ```
 
-Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido.
-Además el informe debe de contener:
- - Indice
- - Pasos descritos.
- - Carecer faltas de ortografía.
- - Capturas de pantalla con los resultados obtenidos.
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/7.png">
