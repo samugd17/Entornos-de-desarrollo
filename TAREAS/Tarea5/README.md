@@ -1,4 +1,12 @@
+<div align="justify"> 
+
 # Instalación de JDK en Devian
+
+## Índice
+- [Introducción.](#introducción)
+- [Cómo instalar Java en Ubuntu desde repositorios.](#cómo-instalar-java-en-ubuntu-desde-repositorios)
+- [Cómo instalar una versión específica de Java.](#cómo-instalar-una-versión-específica-de-java)
+- [Configuración de las variables de entorno](#configuración-de-las-variables-de-entorno)
 
 ## Introducción
 
@@ -80,13 +88,18 @@ sudo update-alternatives --config java
 
  y selecciona la version _11_.
 
-
 en
 
 ```console
 /etc/profile.d/java.sh
 ```
 <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/6.png">
+
+</br>
+</br>
+
+_**Dentro del editor escribimos "hola soy un script" para hacer la prueba y luego guardamos el archivo**_.
+
 <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/5.png">
 
 Haga que el script sea ejecutable con chmod:
@@ -102,3 +115,9 @@ source /etc/profile.d/java.sh
 ```
 
 <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/7.png">
+
+<div align="right"> 
+Samuel Eloy González Díaz.1ºDAW
+</div>
+
+</div>
