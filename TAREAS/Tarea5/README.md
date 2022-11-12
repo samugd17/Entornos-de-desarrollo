@@ -19,14 +19,17 @@ e instalamos Java con este comando:
   sudo apt-get install default-jdk
 ```
 
-<img src="">
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/1.png">
 
 
-
-comprobamos que tenemos instalado Java en nuestro sistema solo debemos de ejecutar:
-```
+para comprobar que tenemos instalado Java en nuestro sistema solo debemos de ejecutar:
+```console
   java --version
 ```
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/1.1.png">
+
+</br>
 
 ## ¿Cómo instalar una versión específica de Java?
 
@@ -36,24 +39,26 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    ```
    sudo apt install openjdk-11-jdk
    ```
-    - 13
+    - 17
    ```
-   sudo apt install openjdk-13-jdk
+   sudo apt install openjdk-17-jdk
    ```
-    - 8
-   ```
-   sudo apt install openjdk-8-jdk
-   ```
-La versión que se debe de trabajar es la versión 8. Para ello verificaremos la versión de java que se esta ejecutando con la sentencia:
+ _**En mi caso, he instalado la  versión 17 por fallos de compatibilidad con otras versiones como la 8 o la 13**_.
+ 
+ <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/2.png">
+
+Al igual que antes, comprobamos la versión que tenemos activa con:
 
 ```console
   java --version
 ```
-En caso que no se ejecuta la versión 8 se debe configurar las variables de entorno.
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea5/IMG/2.1.png">
+
+
 
 ## Configuración de las variables de entorno
 
- El siguiente paso consiste en establecer  las variables de entorno. Es necesario porque cuando se usa Java, Linux necesita saber dónde está ubicado el programa para ejecutarlo y qué versión de Java usar de forma predeterminada. Para modificar esto, usaremos el editor de texto nano. Primero, abra el archivo en Nano.
+ El siguiente paso consiste en establecer las variables de entorno. Es necesario porque cuando se usa Java, Linux necesita saber dónde está ubicado el programa para ejecutarlo y qué versión de Java usar de forma predeterminada. Para modificar esto, usaremos el editor de texto nano. Primero, abra el archivo en Nano.
 
 ### Listar la versiones de OpenJDK instaladas
 
