@@ -14,7 +14,6 @@
   <img src="https://www.linuxadictos.com/wp-content/uploads/apache-netbeans.jpg" width="250px">
 </div>
 
-
 ## Pasos
 
 ### Prerrequisitos
@@ -24,8 +23,11 @@
   Para verificarlo recuerda ejecutar el siguiente enlace:
 
   ```console
-  java -version
-  ```
+  java --version
+  ``` 
+  <div align="center">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/1.%20JAVA%20VERSION.png">
+  </div> 
 
 ## Instalación
 
