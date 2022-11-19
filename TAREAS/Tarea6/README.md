@@ -38,21 +38,19 @@ sudo snap install netbeans --classic
 ```
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/3.%20NETBEANS%20INSTALLATION%20(WRONG).png">
 
-  La instalación finalizará cuando veas el sigueinte mensaje:
+  La instalación finalizará cuando veas el siguiente mensaje:
 
   ```console
-  netbeans 12.5 from Apache NetBeans✓ installed
+  netbeans 15 from Apache NetBeans✓ installed
   ```
 
-# Ejecutando Netbeans 12
+# Ejecutando Netbeans 15
 
-  Ahora que Netbeans está instalado en su sistema Ubuntu, puede iniciarlo escribiendo netbeans en su terminal o haciendo clic en el icono de Netbeans ( Activities -> Netbeans ).
+  Ahora que Netbeans está instalado en su sistema, puede iniciarlo escribiendo netbeans en su terminal o haciendo clic en el icono de Netbeans ( Activities -> Netbeans ).
 
 <div align="center">
-  <img src="https://liukin.es/wp-content/uploads/2021/10/Como-instalar-Netbeans-en-Ubuntu-Linux.png" width="250px">
+  <img src="https://liukin.es/wp-content/uploads/2021/10/Como-instalar-Netbeans-en-Ubuntu-Linux.png" width="550px">
 </div>
-
-  Una vez que se cargue el IDE de Netbeans, se le presentará la página de inicio.
 
 # Eliminar Netbeans
 
@@ -67,6 +65,8 @@ sudo snap remove netbeans
 ## Instalación a través wget (Cualquier distribución Linux)
 
 Teniendo en cuenta que has completado la instalación de __java__ en la tarea anterior, puedes realizar la instalación de Netbeans 12.5 a través de __wget__. De esta forma se puede realizar la instalación en ___cualquier distribución de linux___.
+  
+  En nuestro caso hemos empleado este método ya que con el comando _snap_ no nos aparecía Netbeans.
 
 Los pasos son los siguientes:
 - Abre un navegador, navegue hasta la página de descarga de NetBeans IDE y descargue el último script de instalación de NetBeans IDE ([ Apache-NetBeans-12.5-bin-linux-x64.sh](https://netbeans.apache.org/download/nb125/nb125.html) ) para su distribución de Linux instalada.
