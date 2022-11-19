@@ -25,7 +25,10 @@
   ```console
   java --version
   ``` 
+  
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/1.%20JAVA%20VERSION.png">
+  
+  <br>
 
 ## Instalación
 
@@ -47,7 +50,10 @@
 ```console
 sudo snap install netbeans --classic
 ```
+  
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/3.%20NETBEANS%20INSTALLATION%20(WRONG).png">
+  
+  <br>
 
   La instalación finalizará cuando veas el siguiente mensaje:
 
@@ -58,10 +64,10 @@ sudo snap install netbeans --classic
 # Ejecutando Netbeans 15
 
   Ahora que Netbeans está instalado en su sistema, puede iniciarlo escribiendo netbeans en su terminal o haciendo clic en el icono de Netbeans ( Activities -> Netbeans ).
-
-<div align="center">
+  
   <img src="https://liukin.es/wp-content/uploads/2021/10/Como-instalar-Netbeans-en-Ubuntu-Linux.png" width="550px">
-</div>
+  
+  <br>
 
 # Eliminar Netbeans
 
@@ -96,14 +102,12 @@ Los pasos son los siguientes:
   ./Apache-NetBeans-12.5-bin-linux-x64.sh
   ```
   
-  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/5.%20FINAL%20STEP.png">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/4.%20INSTALLATION%20NETBEANS.png">
   
   <br>
   
 - Después de ejecutar el script de instalación anterior, la “ Página de bienvenida ” del instalador se deben de seguir los pasos para personalizar la instalación (lenguajes soportados, etc).
   
-  <div align="center">
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/5.%20FINAL%20STEP.png">
-  </div>  
 
 </div>
