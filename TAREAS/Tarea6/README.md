@@ -1,6 +1,6 @@
 <div align="justify">
 
-# Instalación del IDE Netbeans 12
+# Instalación del IDE Netbeans
 
 ## Índice
 - [Introducción.](#introducción)
