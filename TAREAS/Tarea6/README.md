@@ -25,9 +25,7 @@
   ```console
   java --version
   ``` 
-  <div align="center">
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/1.%20JAVA%20VERSION.png">
-  </div> 
 
 ## Instalación
 
@@ -38,6 +36,7 @@
 ```console
 sudo snap install netbeans --classic
 ```
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/3.%20NETBEANS%20INSTALLATION%20(WRONG).png">
 
   La instalación finalizará cuando veas el sigueinte mensaje:
 
