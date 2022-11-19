@@ -6,7 +6,7 @@
 - [Introducción.](#introducción)
 - [Prerrequisitos.](#prerrequisitos)
 - [Instalación.](#instalación)
-- [Instalación a través de wget (Cualquier distribución Linux)](#instalación-a-través-de-wget)
+- [Instalación a través de wget](#instalación-a-través-de-wget)
   
   
 ## Introducción
