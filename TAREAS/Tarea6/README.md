@@ -4,19 +4,19 @@
 
 ## Índice
 - [Introducción.](#introducción)
-- [Cómo instalar Java en Ubuntu desde repositorios.](#cómo-instalar-java-en-ubuntu-desde-repositorios)
-- [Cómo instalar una versión específica de Java.](#cómo-instalar-una-versión-específica-de-java)
-- [Configuración de las variables de entorno](#configuración-de-las-variables-de-entorno)
-
+- [Prerrequisitos.](#prerrequisitos)
+- [Instalación.](#instalación)
+- [Instalación a través de wget (Cualquier distribución Linux)](#instalación-a-través-de-wget)
+  
+  
+## Introducción
   NetBeans es un IDE popular para desarrollar aplicaciones Java. Esto permite desarrollar aplicaciones a partir de un conjunto de componentes de software modulares llamados módulos. NetBeans está disponible para ejecutarse en sistemas operativos populares como Windows, macOS, Linux.
 
 <div align="center">
   <img src="https://www.linuxadictos.com/wp-content/uploads/apache-netbeans.jpg" width="250px">
 </div>
 
-## Pasos
-
-### Prerrequisitos
+## Prerrequisitos
 
   Recuerda que para la instalación de __Netbeans__ debes de tener instalado __Java__. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](tarea-jdk.md).
 
@@ -79,7 +79,7 @@ __No realices este paso, es para que conozcas como se elimina__.
 sudo snap remove netbeans
 ```
 
-## Instalación a través wget (Cualquier distribución Linux)
+## Instalación a través de wget
 
 Teniendo en cuenta que has completado la instalación de __java__ en la tarea anterior, puedes realizar la instalación de Netbeans 12.5 a través de __wget__. De esta forma se puede realizar la instalación en ___cualquier distribución de linux___.
   
