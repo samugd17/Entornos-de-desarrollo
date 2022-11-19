@@ -30,6 +30,17 @@
 ## Instalación
 
   Los paquetes Snap son paquetes de software universales prediseñados que se envían con las bibliotecas y dependencias requeridas por el paquete de software. Son independientes de la distribución y se pueden instalar en cualquier distribución principal de Linux. Los snaps son populares ya que no requieren ninguna dependencia durante la instalación, lo que hace que el proceso de instalación sea fluido y sin errores.
+  
+  En nuestro caso, antes de poder instalar Netbeans, hemos tenido que instalar los paquetes _snap_ ya que no los teníamos en nuestro sistema.
+  Lo hacemos con el siguiente comando:
+  
+  ```console
+  sudo apt install snapd
+  ```
+  
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/3.%20NETBEANS%20INSTALLATION%20(WRONG).png">
+  
+  <br>
 
   Para instalar la edición Netbeans, ejecute el siguiente comando:
 
