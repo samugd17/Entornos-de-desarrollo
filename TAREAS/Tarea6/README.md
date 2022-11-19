@@ -95,6 +95,11 @@ Los pasos son los siguientes:
   ```code
   ./Apache-NetBeans-12.5-bin-linux-x64.sh
   ```
+  
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/5.%20FINAL%20STEP.png">
+  
+  <br>
+  
 - Después de ejecutar el script de instalación anterior, la “ Página de bienvenida ” del instalador se deben de seguir los pasos para personalizar la instalación (lenguajes soportados, etc).
   
   <div align="center">
