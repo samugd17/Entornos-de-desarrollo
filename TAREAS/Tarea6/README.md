@@ -84,15 +84,9 @@ Los pasos son los siguientes:
   ./Apache-NetBeans-12.5-bin-linux-x64.sh
   ```
 - Después de ejecutar el script de instalación anterior, la “ Página de bienvenida ” del instalador se deben de seguir los pasos para personalizar la instalación (lenguajes soportados, etc).
-# Realización del informe
-
- Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido.
-Además el informe debe de contener:
- - Indice
- - Pasos descritos.
- - Problemas encontrados.
- - Capturas de pantalla con los resultados obtenidos.
-
-
+  
+  <div align="center">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea6/IMG/5.%20FINAL%20STEP.png">
+  </div>  
 
 </div>
