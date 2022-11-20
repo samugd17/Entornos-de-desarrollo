@@ -2,7 +2,7 @@
 
 # Instalación del IDE Eclipse
 
-# Índice
+## Índice
 - [Introducción.](#introducción)
 - [Prerrequisitos.](#prerrequisitos)
 - [Instalación.](#instalación)
