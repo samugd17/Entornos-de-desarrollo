@@ -1,24 +1,29 @@
 <div align="justify">
 
-# Índice
-  
-# Instalación del IDE Eclipse
+# Instalación del IDE IntelliJ IDEA
 
+# Índice
+- [Introducción.](#introducción)
+- [Prerrequisitos.](#prerrequisitos)
+- [Instalación.](#instalación)
+
+## Introducción
+  IntelliJ IDEA es un IDE (entorno de desarrollo integrado) de código abierto para desarrollar aplicaciones Java. Es desarrollado y mantenido por Jetbrains, una compañía también popular para desarrollar PyCharm IDE. Se estima que más del 70% de los desarrolladores de Java prefieren IntelliJ IDE sobre otros IDE como Eclipse.
+  
 <div align="center">
-  <img src="https://www.eclipse.org/downloads/assets/public/images/logo-eclipse.png" width="150px">
+<img src="http://blog.chuidiang.org/wp-content/uploads/6eqoPNuy.jpg" width="150px">
 </div>
 
-  Eclipse es uno de los IDE de código abierto más populares (Iintegrado Ddesarrollo minvironment) para desarrolladores de software. Es popular para aplicaciones basadas en Java, también se usa para C / C ++, PHP y Perl y otros proyectos web.
-
-  ## Prerrequisitos
-
-  Recuerda que para la instalación de __Eclipse__ debes de tener instalado __Java__. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](tarea-jdk.md).
+## Prerrequisitos
+  Recuerda que para la instalación de __Intelij__ debes de tener instalado __Java__. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](tarea-jdk.md).
 
   Para verificarlo recuerda ejecutar el siguiente enlace:
 
-  ```console
-  java -version
-  ```
+```console
+java -version
+```
+
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea8/IMG/1.%20JAVA%20VERSION.png">
 
 ## Instalación
 
@@ -26,37 +31,22 @@
 
   Para instalar la edición Community, ejecute el siguiente comando:
 
-  ```console
-  sudo snap install --classic eclipse
-  ```
-  
-  <img src="" width="">
-  
-  <br>
+```console
+sudo snap install intellij-idea-community --classic
+```
 
-  Esto debería llevar unos minutos y debería continuar sin problemas.
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea8/IMG/2.%20INSTALL%20Intelij.png">
 
-  ### Lanzamiento de Eclipse
+### Lanzamiento de IntelliJ
 
-  Para iniciar Eclipse en Ubuntu, use la aplicación para buscarlo (_Activities o Alt + F1_) como se muestra. Luego haga clic en el ícono de Eclipse.
+  Para iniciar IntelliJ en Ubuntu, use la aplicación para buscarlo (_Activities o Alt + F1_) como se muestra. Luego haga clic en el ícono de IntelliJ.
 
   Busca un icono similar al siguiente, dado que puede sufrir modificaciones en función de la versión:
 
   <div align="center">
-      <img src="https://www.eclipse.org/downloads/assets/public/images/logo-eclipse.png" width="150px">
+    <img src="http://blog.chuidiang.org/wp-content/uploads/6eqoPNuy.jpg" width="150px">
   </div>
 
 
-## Realización del informe
 
-  Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido.
-Además el informe debe de contener:
- - Indice
- - Pasos descritos.
- - Carecer faltas de ortografía.
- - Capturas de pantalla con los resultados obtenidos.
-
-
-
-  </div>
-
+</div>
