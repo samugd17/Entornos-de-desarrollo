@@ -27,7 +27,7 @@
  sudo apt update
 ```
  
-<img src="">
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/1.%20ACTUALIZANDO%20%C3%8DNDICE%20DE%20PAQUETES.png">
  
 ```
  sudo apt install maven
@@ -35,8 +35,12 @@
  
  NOS SALE UN FALLO LO ARREGLAMOS ASI:
  
-  <img src="">
-  <img src="">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/2.%20SOLUCION.png">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/2.1%20SOLUCI%C3%93N.png">
+  
+ DESPUÉS DEL ARREGLO YA NOS FUNCIONA BIEN ASI: 
+  
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/3.%20MAVEN%20INSTALL.png">
 
  Para verificar la instalación, ejecute mvn -version:
 ```
@@ -45,7 +49,7 @@
 
  La salida debería verse de forma similar:
 
- <img src="">
+ <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/4.%20MAVEN%20VERSION.png">
 
  Eso es todo. Maven ahora está instalado en su sistema y puede comenzar a usarlo.
 
@@ -70,7 +74,7 @@ sudo tar xf /tmp/apache-maven-*.tar.gz -C /opt
 sudo ln -s /opt/apache-maven-3.8.6 /opt/maven
 ```
  
-<img src="">
+<img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/5.%20DESCARGA%20ESPEC%C3%8DFICA%20MAVEN.png">
  
  Cuando se lanza una nueva versión, puede actualizar su instalación de Maven desempaquetando la última versión y cambiando el enlace simbólico para señalarla.
 
@@ -88,8 +92,8 @@ Pega el siguiente código:
  export PATH=${M2_HOME}/bin:${PATH}
 ```
  
-  <img src="">
-  <img src="">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/6.%20NANO.png">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/6.1.%20NANO.png">
 
  Guarde y cierre el archivo. Este script se utilizará al iniciar el shell.
 
@@ -103,7 +107,7 @@ Pega el siguiente código:
  source /etc/profile.d/maven.sh
 ```
  
-  <img src="">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/7.%20SCRIPT.png">
 
 __Verificar la instalación__
 
@@ -115,7 +119,7 @@ mvn -version
 
 Debería ver algo similar a lo siguiente:
 
- <img src="">
+ <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/8.%20MAVEN%20VERSION%20FINAL.png">
 
 Eso es todo. La última versión de Maven ahora está instalada en su sistema Ubuntu.
 
