@@ -93,6 +93,7 @@ Pega el siguiente código:
 ```
  
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/6.%20NANO.png">
+ <br>
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/6.1.%20NANO.png">
 
  Guarde y cierre el archivo. Este script se utilizará al iniciar el shell.
