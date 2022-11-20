@@ -2,7 +2,7 @@
 
 # Instalación del IDE IntelliJ IDEA
 
-# Índice
+## Índice
 - [Introducción.](#introducción)
 - [Prerrequisitos.](#prerrequisitos)
 - [Instalación.](#instalación)
