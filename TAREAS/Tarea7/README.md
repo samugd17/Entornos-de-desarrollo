@@ -26,7 +26,7 @@
   java -version
   ```
   
-  <img src="">
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea7/IMG/1.%20JAVA%20VERSION.png">
 
 ## Instalación
 
@@ -38,9 +38,7 @@
   sudo snap install --classic eclipse
   ```
   
-  <img src="">
-
-  Esto debería llevar unos minutos y debería continuar sin problemas.
+  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea7/IMG/2.%20INSTALL%20ECLIPSE.png">
 
   ### Lanzamiento de Eclipse
 
