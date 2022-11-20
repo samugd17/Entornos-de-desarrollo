@@ -4,14 +4,18 @@
 
 ## Índice
 - [Introducción.](#introducción)
-- [Prerrequisitos.](#prerrequisitos)
 - [Instalación.](#instalación)
 
 ## Introducción
 
  Apache Maven es una herramienta de gestión y comprensión de proyectos de código abierto que se utiliza principalmente para proyectos Java. Maven usa un modelo de objetos de proyecto (POM), que es esencialmente un archivo XML que contiene información del proyecto, detalles de configuración, dependencias del proyecto y más.
+ <br>
+ 
+ <div align="center">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/1200px-Apache_Maven_logo.svg.png" width="300px">
+ </div>
 
-## Instalar Apache Maven
+## Instalación
 
 ### Instalar Apache Maven con apt
 
@@ -22,9 +26,17 @@
 ```
  sudo apt update
 ```
+ 
+<img src="">
+ 
 ```
  sudo apt install maven
 ```
+ 
+ NOS SALE UN FALLO LO ARREGLAMOS ASI:
+ 
+  <img src="">
+  <img src="">
 
  Para verificar la instalación, ejecute mvn -version:
 ```
@@ -33,13 +45,7 @@
 
  La salida debería verse de forma similar:
 
-```
-Apache Maven 3.6.3
- Maven home: /usr/share/maven
- Java version: 11.0.7, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
- Default locale: en_US, platform encoding: UTF-8
- OS name: "linux", version: "5.4.0-29-generic", arch: "amd64", family: "unix"
-```
+ <img src="">
 
  Eso es todo. Maven ahora está instalado en su sistema y puede comenzar a usarlo.
 
@@ -63,6 +69,9 @@ sudo tar xf /tmp/apache-maven-*.tar.gz -C /opt
 ```
 sudo ln -s /opt/apache-maven-3.8.6 /opt/maven
 ```
+ 
+<img src="">
+ 
  Cuando se lanza una nueva versión, puede actualizar su instalación de Maven desempaquetando la última versión y cambiando el enlace simbólico para señalarla.
 
 
@@ -78,6 +87,9 @@ Pega el siguiente código:
  export MAVEN_HOME=/opt/maven
  export PATH=${M2_HOME}/bin:${PATH}
 ```
+ 
+  <img src="">
+  <img src="">
 
  Guarde y cierre el archivo. Este script se utilizará al iniciar el shell.
 
@@ -90,6 +102,8 @@ Pega el siguiente código:
 ```
  source /etc/profile.d/maven.sh
 ```
+ 
+  <img src="">
 
 __Verificar la instalación__
 
@@ -101,13 +115,7 @@ mvn -version
 
 Debería ver algo similar a lo siguiente:
 
-```
-Apache Maven 3.8.6 (cecedd343002696d0abb50b32b541b8a6ba2883f)
- Maven home: /opt/maven
- Java version: 11.0.7, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
- Default locale: en_US, platform encoding: UTF-8
- OS name: "linux", version: "5.4.0-29-generic", arch: "amd64", family: "unix"
-```
+ <img src="">
 
 Eso es todo. La última versión de Maven ahora está instalada en su sistema Ubuntu.
 
