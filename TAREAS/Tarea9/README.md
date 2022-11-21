@@ -140,7 +140,7 @@ Pega el siguiente código:
  
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/7.%20SCRIPT.png">
 
-__Verificar la instalación__
+### Verificar la instalación
 
 Para verificar que Maven está instalado, use el mvn -version que imprimirá la versión de Maven:
 
