@@ -5,6 +5,7 @@
 ## Índice
 - [Introducción.](#introducción)
 - [Instalación.](#instalación)
+- [Establecer variables de entorno](#establecer-variables-de-entorno)
 
 ## Introducción
 
@@ -38,13 +39,35 @@
  
  Al ejecutarlo, nos aparece un error _**«could not get lock /var/lib/dpkg/lock»**_. Este fallo suele aparecer cuando otro proceso que haga uso de apt este en ejecución ya sea en un segundo plano o cuando se tiene abierto el centro de software de Ubuntu, Synaptic y demás. Esto se debe a que Ubuntu, de forma predeterminada, habilita las actualizaciones en segundo plano para la actualización de seguridad. Cuando Ubuntu termina de iniciarse, automáticamente ejecuta el comando apt-get update comando. Si hay actualizaciones de seguridad disponibles, las instalará en segundo plano. Así que si ejecutan el comando sudo apt upgrade al mismo tiempo, se muestra el error anterior.
  
- Para solucionar esto, a través de la terminal, modificaremos 
+ Para solucionar esto, a través de la terminal, modificaremos el fichero donde se permite a Ubuntu actualizarse automáticamente siguiendo estos sencillos pasos:
+ 
+ **1.** Ingresamos el siguiente comando:
+
+ ```
+sudo nano /etc/apt/apt.conf.d/20auto-upgrades
+ ```
+ 
+ **2.** Este nos abrirá el editor nano donde habrá que reemplazar el contenido original por este:
+ 
+ ```
+APT::Periodic::Update-Package-Lists "1";
+ 
+APT::Periodic::Download-Upgradeable-Packages "0";
+ 
+APT::Periodic::AutocleanInterval "0";
+ 
+APT::Periodic::Unattended-Upgrade "0";
+ ```
+ 
+ Quedando tal y como aparece en la imagen
+ 
  
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/2.%20SOLUCION.png">
-  <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/2.1%20SOLUCI%C3%93N.png">
-  
- DESPUÉS DEL ARREGLO YA NOS FUNCIONA BIEN ASI: 
-  
+ 
+Acto seguido, guardaremos el archivo con Ctrl + O y saldremos con Ctrl + X. Posteriormente reiniciamos nuestro equipo.
+ 
+ Ahora si, ya podemos ejecutar con normalidad el comando de instalación que antes fallaba y seguir adelante con los  pasos.
+
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/3.%20MAVEN%20INSTALL.png">
 
  Para verificar la instalación, ejecute mvn -version:
@@ -60,8 +83,7 @@
 
 ### Instalar una versión concreta de Apache Maven
 
- En el momento de escribir este artículo, es la última versión de Apache Maven 3.8.6. Antes de continuar con el siguiente paso, visite la página de descarga de Maven para ver si hay una versión más nueva disponible.
-
+ En el momento de escribir este artículo, la última versión disponible de Apache Maven es la 3.8.6.
 
  Descargue Apache Maven en el directorio /tmp:
 
@@ -73,6 +95,7 @@ wget https://www.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6
 ```
 sudo tar xf /tmp/apache-maven-*.tar.gz -C /opt
 ```
+ 
  Para tener más control sobre las versiones y actualizaciones de Maven, que a crear un maven enlace simbólico que apunte al directorio de instalación de Maven:
 
 ```
@@ -84,8 +107,9 @@ sudo ln -s /opt/apache-maven-3.8.6 /opt/maven
  Cuando se lanza una nueva versión, puede actualizar su instalación de Maven desempaquetando la última versión y cambiando el enlace simbólico para señalarla.
 
 
-__Establecer variables de entorno__
- A continuación, necesitaremos establecer las variables de entorno. Para hacer esto, abra su editor de texto y cree un nuevo archivo llamado mavenenv.sh en el directorio /etc/profile.d/
+## Establecer variables de entorno
+ 
+ A continuación, necesitaremos establecer las variables de entorno. Para hacer esto, abra su editor de texto y cree un nuevo archivo llamado maven.sh en el directorio /etc/profile.d/
 ```
 sudo nano /etc/profile.d/maven.sh
 ```
@@ -100,6 +124,7 @@ Pega el siguiente código:
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/6.%20NANO.png">
  <br>
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/6.1.%20NANO.png">
+ <br>
 
  Guarde y cierre el archivo. Este script se utilizará al iniciar el shell.
 
@@ -131,6 +156,9 @@ Eso es todo. La última versión de Maven ahora está instalada en su sistema Ub
 
 Conclusión
 Le mostramos cómo instalar Apache Maven en Ubuntu. Ahora debería visitar la página de documentación oficial de Apache Maven y aprender cómo empezar con Maven.
-
+ 
+ <div align="right">
+ Samuel Eloy González Díaz.1ºDAW
+ </div>
 
 </div>
