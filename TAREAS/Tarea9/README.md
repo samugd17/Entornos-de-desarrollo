@@ -29,10 +29,16 @@
  
 <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/1.%20ACTUALIZANDO%20%C3%8DNDICE%20DE%20PAQUETES.png">
  
+ Seguidamente, aplicamos el siguiente comando para instalar el IDE.
+ 
 ```
  sudo apt install maven
 ```
- Al ejecutar este comando, nos aparece un error _**«could not get lock /var/lib/dpkg/lock»**_. Este fallo suele aparecer cuando otro proceso que haga uso de apt este en ejecución ya sea en un segundo plano o cuando se tiene abierto el centro de software de Ubuntu, Synaptic y demás. Esto se debe a que Ubuntu, de forma predeterminada, habilita las actualizaciones en segundo plano para la actualización de seguridad. Cuando Ubuntu termina de iniciarse, automáticamente ejecuta el comando apt-get update comando. Si hay actualizaciones de seguridad disponibles, las instalará en segundo plano. Así que si ejecutan el comando sudo apt upgrade al mismo tiempo, se muestra el error anterior.
+ 
+ 
+ Al ejecutarlo, nos aparece un error _**«could not get lock /var/lib/dpkg/lock»**_. Este fallo suele aparecer cuando otro proceso que haga uso de apt este en ejecución ya sea en un segundo plano o cuando se tiene abierto el centro de software de Ubuntu, Synaptic y demás. Esto se debe a que Ubuntu, de forma predeterminada, habilita las actualizaciones en segundo plano para la actualización de seguridad. Cuando Ubuntu termina de iniciarse, automáticamente ejecuta el comando apt-get update comando. Si hay actualizaciones de seguridad disponibles, las instalará en segundo plano. Así que si ejecutan el comando sudo apt upgrade al mismo tiempo, se muestra el error anterior.
+ 
+ Para solucionar esto, a través de la terminal, modificaremos 
  
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/2.%20SOLUCION.png">
   <img src="https://github.com/samugd17/Entornos-de-desarrollo/blob/main/TAREAS/Tarea9/IMG/2.1%20SOLUCI%C3%93N.png">
