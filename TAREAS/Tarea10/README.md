@@ -17,4 +17,11 @@ Se propone un ejercicio de un diagrama de casos de uso que consiste en el diseñ
 - Una vez terminado el servicio, el cliente no tiene porque realizar inmediatamente el pago, sino que puede identificarse posteriormente en la aplicación vía web y realizar el pago. Si el cliente tarda más de una semana se efectuará un recargo sobre el precio inicial.
 - Además, el cliente debe ser capaz de obtener un histórico de todas las consultas que ha recibido cualquiera de sus mascotas.
 
+<details>
+
+<summary>SOLUCIÓN</summary>
+
+
+</details>
+
 </div>
