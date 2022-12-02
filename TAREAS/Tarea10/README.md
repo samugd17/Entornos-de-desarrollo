@@ -21,6 +21,31 @@ Se propone un ejercicio de un diagrama de casos de uso que consiste en el diseñ
 
 <summary>SOLUCIÓN</summary>
 
+## IDENTIFICACIÓN ELEMENTOS DIAGRAMA:
+
+_**ACTORES**_
+
+- Cliente.
+- Mascota.
+- Veterinario.
+- Auxiliar. 
+- REIAC (Red Española de Identificación de Animales de Compañía).
+
+_**CASOS DE USO**_
+
+- Introducir datos.
+- Gestionar datos 
+- Dar de alta. 
+- Comprobar alta. 
+- Guardar datos consulta. 
+- Cronometrar consulta. 
+- Acceder estado del animal. 
+- Autenticar usuario. 
+- Realizar pago. 
+- Acceder histórico consultas.
+
+
+
 
 </details>
 
