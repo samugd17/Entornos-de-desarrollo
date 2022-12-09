@@ -26,16 +26,16 @@ Se propone un ejercicio de un diagrama de casos de uso que consiste en el diseñ
 _**ACTORES**_
 
 - Cliente.
-- Mascota.
 - Veterinario.
 - Auxiliar. 
 - REIAC (Red Española de Identificación de Animales de Compañía).
 
 _**CASOS DE USO**_
 
-- Introducir datos.
-- Gestionar datos 
-- Dar de alta. 
+- Introducir datos clientes.
+- Gestionar datos clientes. 
+- Dar de alta mascota.
+- Gestionar datos mascota.
 - Comprobar alta. 
 - Guardar datos consulta. 
 - Cronometrar consulta. 
